@@ -68,10 +68,6 @@ namespace CSharpsPantherPantry_Jeff
             rightToolStripButton.ImageIndex = 10;
             countToolStripButton.ImageIndex = 11;
         }
-        private void closeToolStripButton_Click(object sender, EventArgs e)
-        {
-            //closes the form.  No save attion is performed at this time
-            this.Close();
-        }
+      
     }
 }
