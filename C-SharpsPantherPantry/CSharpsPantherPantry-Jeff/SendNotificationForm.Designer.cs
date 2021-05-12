@@ -1,7 +1,7 @@
 ﻿
 namespace CSharpsPantherPantry_Jeff
 {
-    partial class Form1
+    partial class SendNotificationForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace CSharpsPantherPantry_Jeff
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // SendNotificationForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "SendNotificationForm";
+            this.Text = "Send Notification";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

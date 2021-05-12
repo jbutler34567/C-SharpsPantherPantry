@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CSharpsPantherPantry_Jeff
 {
-    public partial class Form1 : Form
+    public partial class SendNotificationForm : Form
     {
-        public Form1()
+        public SendNotificationForm()
         {
             InitializeComponent();
         }
