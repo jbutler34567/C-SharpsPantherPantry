@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Net;
 using System.Net.Mail;
 using Microsoft.VisualBasic;
-using C-SharpsPantherPantry;
+//using C_SharpsPantherPantry.Logic;
 
 /**
  * Author:  Jeff Butler
@@ -47,13 +47,31 @@ namespace CSharpsPantherPantry_Jeff
             InitializeComponent();
             //this.userID = userID;
         }
-        
+        DB db = new DB();
         const string smtp = "smtp.gmail.com";
         const int port = 587;
 
         private void SendNotificationForm_Load(object sender, EventArgs e)
         {
-
+            // populates image list
+            appToolStrip.ImageList = ButtonImageList;
+            closeToolStripButton.ImageIndex = 0;
+            sendToolStripButton.ImageIndex = 1;
+            openToolStripButton.ImageIndex = 2;
+            copyToolStripButton.ImageIndex = 3;
+            pasteToolStripButton.ImageIndex = 4;
+            cutToolStripButton.ImageIndex = 5;
+            undoToolStripButton.ImageIndex = 6;
+            redoToolStripButton.ImageIndex = 7;
+            leftToolStripButton.ImageIndex = 8;
+            centerToolStripButton.ImageIndex = 9;
+            rightToolStripButton.ImageIndex = 10;
+            countToolStripButton.ImageIndex = 11;
+        }
+        private void closeToolStripButton_Click(object sender, EventArgs e)
+        {
+            //closes the form.  No save attion is performed at this time
+            this.Close();
         }
     }
 }

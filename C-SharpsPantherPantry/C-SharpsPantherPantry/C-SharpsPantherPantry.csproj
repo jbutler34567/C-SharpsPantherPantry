@@ -77,5 +77,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpsPantherPantry-Jeff\CSharpsPantherPantry-Jeff.csproj">
+      <Project>{0bad86dd-8885-43a9-be5f-93ef30e58e36}</Project>
+      <Name>CSharpsPantherPantry-Jeff</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

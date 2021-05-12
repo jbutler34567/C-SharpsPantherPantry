@@ -17,10 +17,9 @@ using System.Data;
  *  EL: Added methods: addNewUser, getUserByUsername, getAllUsernames 4/29/2021
  **/
 
-
-namespace C_SharpsPantherPantry.Logic
+namespace CSharpsPantherPantry_Jeff
 {
-    public class DB
+    class DB
     {
         public DB()
         //constructor 
@@ -324,3 +323,4 @@ namespace C_SharpsPantherPantry.Logic
         }
     }
 }
+
